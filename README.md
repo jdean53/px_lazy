@@ -93,4 +93,4 @@ Sherzod Esanov
 
 ## More 
 
-To view the GitHub repo for this website, click [here](https://github.com/donbowen/teamproject).
+To view the GitHub repo for this website, click [here](https://github.com/jdean53/px_lazy).
