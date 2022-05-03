@@ -4,23 +4,20 @@ This is a website to showcase our final project for FIN 377 - Data Science for F
 
 To see the complete analysis file(s) click [here](https://github.com/julioveracruz/testwebsite/blob/main/notebooks/example.ipynb).
 
-Maybe you want a different website them for the project? Consider `minimal-mistakes`:
-1. [Go here](https://github.com/mmistakes/mm-github-pages-starter/generate).
-2. In the resulting repo, click Settings, then Pages, then make sure the source is the main branch.
-3. [The doc site is here](https://mmistakes.github.io/minimal-mistakes/docs/structure/) and will help you customize layouts and figure out how to use it.
-
 ## Table of contents
 1. [Introduction](#introduction)
 2. [Methodology](#meth)
-3. [Section 2](#section2)
-    1. [Subsection](#subsec2-1)
-    2. [Subsection](#subsec2-2)
+3. [Data Preparation](#section2)
+    1. [Data Grab](#subsec2-1)
+    2. [Data Clean](#subsec2-2)
 4. [Analysis Section](#section3)
 5. [Summary](#summary)
 
 ## Introduction  <a name="introduction"></a>
 
-(The "Introduction" text above is formatted in heading 2 style.) The main goal of this project is to explore *(insert project idea here)*.  
+This project is inspired by the research paper titled [*Lazy Prices] (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1658471),* written by Lauren Cohen, Christopher Malloy, and Quoc Nguyen. The paper analyzes S&P 500 companies' quarterly and annual SEC filings between 1995-2014 to determine significant changes in language and structure over time. They found that changes to the reports predict a pessimistic future for the company in areas like earnings, profitability, and even future firm-level bankruptcies. On the other hand, firms that do not make significant changes to their quarterly and annual reports experience positive returns over time.
+
+The main goal of our project is to replicate the work in *Lazy Prices.* This will lead us to generate sell or buy signals depending on the documents' differences or lack thereof.  The original research focuses on the Management's Discussion and Analysis (MD&A) and Risk Factors sections, which we are also investigating. Our objective is to prove that greater magnitude of changes will lead to significant underperfomance.
 
 ## Methodology <a name="meth"></a>
 
