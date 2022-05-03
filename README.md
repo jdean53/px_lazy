@@ -70,7 +70,7 @@ Blah blah
 
 ## About the Team
 <br>
-### [Jack Dean](https://www.linkedin.com/in/jack-dean-445336150/)
+###[Jack Dean](https://www.linkedin.com/in/jack-dean-445336150/)
 Jack is completing his Financial Engineering Master's degree at Lehigh in May 2022. Following his program, he will be joining Millenium as a Fixed Income Quantitative Analyst in New York City. 
 <br>
 <img src="pics/Jack.jpg" alt="Jack Dean" width="300"/>
