@@ -75,15 +75,19 @@ Blah blah
 
 ## About the team
 
-<img src="pics/Jacj.jpg" alt="Jack Dean" width="300"/>
+<img src="pics/Jack.jpg" alt="Jack Dean" width="300"/>
 <br>
-Julio is a senior at Lehigh studying finance.
+Jack Dean
 <br><br><br>
 <img src="pics/Noah.jpg" alt="Noah Sutherland" width="300"/>
 <br>
-
-
-
+Noah Sutherland
+<img src="pics/Matt.jpg" alt="Matthew Morana" width="300"/>
+<br>
+Matt Morana
+<img src="pics/Sher1.jpg" alt="Noah Sutherland" width="300"/>
+<br>
+Sherzod Esanov
 ## More 
 
 To view the GitHub repo for this website, click [here](https://github.com/donbowen/teamproject).
