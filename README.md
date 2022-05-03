@@ -2,13 +2,13 @@
 
 This is a website to showcase our final project for FIN 377 - Data Science for Finance course at Lehigh University.
 
-## Table of contents
+## Table of Contents
 1. [Introduction](#introduction)
 2. [Methodology](#meth)
 3. [Data Preparation](#section2)
     1. [Data Grab](#subsec2-1)
     2. [Data Clean](#subsec2-2)
-4. [Analysis Section](#section3)
+4. [Analysis](#section3)
 5. [Summary](#summary)
 
 ## Introduction  <a name="introduction"></a>
@@ -49,7 +49,7 @@ This is a subsection, formatted in heading 3 style
 ### Subsection 2 <a name="subsec2-2"></a>
 This is a subsection, formatted in heading 3 style
 
-## Analysis Section <a name="section3"></a>
+## Analysis <a name="section3"></a>
 
 Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
 
@@ -71,7 +71,7 @@ Blah blah
 
 
 
-## About the team
+## About the Team
 <br>
 Jack Dean
 <br>
