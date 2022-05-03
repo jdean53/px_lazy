@@ -69,7 +69,6 @@ Blah blah
 
 
 ## About the Team
-<br>
 
 ### [Jack Dean](https://www.linkedin.com/in/jack-dean-445336150/)
 
