@@ -74,20 +74,21 @@ Blah blah
 
 
 ## About the team
-
-<img src="pics/Jack.jpg" alt="Jack Dean" width="300"/>
-<br>
+<br><br>
 Jack Dean
+<img src="pics/Jack.jpg" alt="Jack Dean" width="300"/>
 <br><br><br>
-<img src="pics/Noah.jpg" alt="Noah Sutherland" width="300"/>
-<br>
 Noah Sutherland
-<img src="pics/Matt.jpg" alt="Matthew Morana" width="300"/>
-<br>
+<img src="pics/Noah.jpg" alt="Noah Sutherland" width="300"/>
+<br><br><br>
 Matt Morana
+<img src="pics/Matt.jpg" alt="Matthew Morana" width="300"/>
+<br><br><br>
+Sherzod Esanov
 <img src="pics/Sher1.jpg" alt="Noah Sutherland" width="300"/>
 <br>
-Sherzod Esanov
+
+
 ## More 
 
 To view the GitHub repo for this website, click [here](https://github.com/donbowen/teamproject).
