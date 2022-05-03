@@ -74,7 +74,7 @@ Blah blah
 
 
 ## About the team
-<br><br>
+<br>
 Jack Dean
 <br>
 <img src="pics/Jack.jpg" alt="Jack Dean" width="300"/>
