@@ -76,15 +76,19 @@ Blah blah
 ## About the team
 <br><br>
 Jack Dean
+<br>
 <img src="pics/Jack.jpg" alt="Jack Dean" width="300"/>
 <br><br><br>
 Noah Sutherland
+<br>
 <img src="pics/Noah.jpg" alt="Noah Sutherland" width="300"/>
 <br><br><br>
 Matt Morana
+<br>
 <img src="pics/Matt.jpg" alt="Matthew Morana" width="300"/>
 <br><br><br>
 Sherzod Esanov
+<br>
 <img src="pics/Sher1.jpg" alt="Noah Sutherland" width="300"/>
 <br>
 
