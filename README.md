@@ -19,10 +19,7 @@ The main goal of our project is to replicate the work in *Lazy Prices.* This wil
 
 ## Methodology <a name="meth"></a>
 
-Here is some code that we used to develop our analysis. Blah Blah. [More details are provided in the Appendix](page2).
- 
-Note that for the purposes of the website, you have to copy this code into the markdown file and  
-put the code inside trip backticks with the keyword `python`.
+There are 3 main parts of our project: data grab, data clean, and data analyze. In data grab, we use sec_edgar_downloader to load the S&P 500 companies' 10k's and 10q's in 2009-2010 and 2020. PLACEHOLDER FOR EXPLANATION ON DATA CLEAN & DATA ANALYZE.
 
 ```python
 import seaborn as sns 
