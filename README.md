@@ -72,26 +72,26 @@ Blah blah
 
 ### [Jack Dean](https://www.linkedin.com/in/jack-dean-445336150/)
 
-Jack is completing his Financial Engineering Master's degree at Lehigh in May 2022. Following his program, he will be joining Millenium as a Fixed Income Quantitative Analyst in New York City. 
-<br>
+Jack is completing his Financial Engineering Master's degree at Lehigh University in May 2022. Following his program, he will be joining Millenium as a Fixed Income Quantitative Analyst in New York City. 
+
 <img src="pics/Jack.jpg" alt="Jack Dean" width="300"/>
 <br><br><br>
 ### [Noah Sutherland](https://www.linkedin.com/in/noahsutherland/)
 
 Noah is in his senior year of undergrad at Lehigh University. Following his graduation in May 2022, he will be attending UCLA's Master's of Financial Engineering program.
-<br>
+
 <img src="pics/Noah.jpg" alt="Noah Sutherland" width="300"/>
 <br><br><br>
 ### [Matt Morana](https://www.linkedin.com/in/matthewmorana/_)
 
 Matt is finishing up his Master's of Business Administration degree with a concentration in Business Analytics at Lehigh University in August 2022. Following his program, he will be joining PwC as a mergers and acquisitions consultant in New York City.
-<br>
+
 <img src="pics/Matt.jpg" alt="Matthew Morana" width="300"/>
 <br><br><br>
 ### [Sherzod Esanov](https://www.linkedin.com/in/sherzodesanov/)
 
 Sherzod is completing his Master's of Business Administration degree with a concentration in Business Analytics at Lehigh University in August 2022. He has experience in Uzbekistan as a Financial Analyst at VEON.
-<br>
+
 <img src="pics/Sher1.jpg" alt="Noah Sutherland" width="300"/>
 <br>
 
