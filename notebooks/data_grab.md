@@ -1,8 +1,3 @@
-'''
-Found something that may be helpful - Jack
-https://analyzingalpha.com/sp500-historical-components-and-changes/
-'''
-
 ## Imports
 
 
