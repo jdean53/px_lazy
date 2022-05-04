@@ -5,8 +5,8 @@ This is a website to showcase our final project for FIN 377 - Data Science for F
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Methodology](#meth)
-    2. [Data Grab](#subsec2-1)
-    3. [Data Clean](#subsec2-2)
+    1. [Data Grab](#subsec2-1)
+    2. [Data Clean](#subsec2-2)
 4. [Analysis](#section3)
 5. [Summary](#summary)
 
