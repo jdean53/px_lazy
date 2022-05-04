@@ -9,7 +9,7 @@ This is a website to showcase our final project for FIN 377 - Data Science for F
     2. [Data Clean](#subsec2-2)
     3. [Data Analyze](#subsec2-3)
 3. [Conclusion](#conclusion)
-<br><br><br>
+<br><br>
 
 ## [Introduction](notebooks/introduction.md)  <a name="introduction"></a>
 
