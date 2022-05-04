@@ -41,7 +41,7 @@ In data analyze, all of the data from data clean is pulled and aggregated to an 
 <br>
 
 ## Conclusion  <a name="conclusion"></a>
-We found that a long-short portfolio constructed using this strategy did generally generate returns of 4.92% per annum. That said, we did not observe significant market outperformance for the periods we analyzed.  We list the returns we generated and market returns for the period in the table below  
+We found that a long-short portfolio constructed using this strategy did generally generate returns of 4.92% per annum. That said, we did not observe significant market outperformance for the periods we analyzed. We list the returns we generated and market returns for the period in the table below  
 *Note*: These are listed as quarterly returns and are not an annualized figure  
 
 | Quarter | Return | Market Return |  
@@ -55,7 +55,7 @@ We found that a long-short portfolio constructed using this strategy did general
 | Q3 2020 | -4.46% |   2.27% |  
 | Q4 2020 |  4.92% |  14.93% |  
 
-To conclude, this is a valid strategy, but back end data leakage is likely leading to week results in our analysis.  Given more time, we would implement more functionality to read filing meta data, which would allow specific names to be tied to returns starting on the day after the filing date.  Additionally, there would be more put into cleaning through all the filings downloaded in the downloader file.
+To conclude, this is a valid strategy, but back end data leakage is likely leading to weak results in our analysis. Given more time, we would implement more functionality to read filing meta data, which would allow specific names to be tied to returns starting on the day after the filing date. Additionally, there would be more put into cleaning through all the filings downloaded in the downloader file.
 
 <br>
 
