@@ -31,3 +31,5 @@ $$\cos(\theta) = \frac{\mathbf{A}\cdot\mathbf{B}}{||\mathbf{A}||||\mathbf{B}||}$
 $$= \frac{\sum_{i=1}^4 x_iy_i}{\sqrt{\sum_{i=1}x_i^2}\sqrt{\sum_{i=1}x_i^2}} = \frac{(1)(1) + (1)(0) + (0)(1) + (0)(1)}{\sqrt{1^2+1^2+0^2+0^2}\sqrt{1^2 + 0^2 + 1^2 + 1^2}}$$
 $$= \frac{1 + 0 + 0 + 0}{\sqrt{1+1}\sqrt{1+1+1}} = \frac{1}{\sqrt{2}\sqrt{3}} = 0.4082$$
 So the cosine of the angle between these two vectors is $0.4082$, which implies $\theta=1.1503$ radians or $65.9082$ degrees.
+
+Intuitively, the closer the angle is to zero implies the more similar the vectors are.  For instance, an angle of 0 implies the vectors are identical.  Properties of cosine imply the closer this angle goes to 0, the closer the cosine of the angle is to 1.  Therefore, we are looking to find cosine similarities closer to 1 for long positions and closer to 0 for short positions.
