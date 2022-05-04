@@ -2,6 +2,8 @@
 
 This is a website to showcase our final project for FIN 377 - Data Science for Finance course at Lehigh University.
 
+<br>
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Methodology](#meth)
