@@ -43,6 +43,7 @@ In data analyze, all of the data from data clean is pulled and aggregated to an 
 ## Conclusion  <a name="conclusion"></a>
 We found that a long-short portfolio constructed using this strategy did generally generate returns of 4.92% per annum. That said, we did not observe significant market outperformance for the periods we analyzed.  We list the returns we generated and market returns for the period in the table below  
 *Note*: These are listed as quarterly returns and are not an annualized figure  
+
 | Quarter | Return | Market Return |  
 | -- | -- | -- |  
 | Q1 2010 |  4.00% |  11.09% |  
