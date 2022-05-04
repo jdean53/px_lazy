@@ -8,6 +8,7 @@ This is a website to showcase our final project for FIN 377 - Data Science for F
     1. [Data Grab](#subsec2-1)
     2. [Data Clean](#subsec2-2)
     3. [Data Analyze](#subsec2-3)
+3. [Conclusion](#conclusion)
 
 ## Introduction  <a name="introduction"></a>
 
@@ -27,6 +28,9 @@ In data clean, in order to create a cosine similarity between 2010 and 2020 for 
 
 ### Data Analyze <a name="subsec2-3"></a>
 In data analyze, all of the data from data clean is pulled and aggregated to an individual dataframe stored in quintiles. The cosine similarities are compared to the companies' respective stock returns from Yahoo Finance to determine whether we should short "changers" or buy "non-changers".
+
+## Conclusion  <a name="conclusion"></a>
+PLACEHOLDER FOR A FEW SENTENCES ABOUT OUR FINDINGS.
 
 
 Notice that the output does NOT show! **You have to copy in figures and tables from the notebooks.**
