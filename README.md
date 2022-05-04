@@ -10,6 +10,7 @@ This is a website to showcase our final project for FIN 377 - Data Science for F
     3. [Data Analyze](#subsec2-3)
 3. [Conclusion](#conclusion)
 
+<br>
 ## Introduction  <a name="introduction"></a>
 
 This [project](notebooks/introduction.md) is inspired by the research paper titled [*Lazy Prices*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1658471), written by Lauren Cohen, Christopher Malloy, and Quoc Nguyen. The paper analyzes S&P 500 companies' quarterly and annual SEC filings between 1995-2014 to determine significant changes in language and structure over time. They found that changes to the reports predict a pessimistic future for the company in areas like earnings, profitability, and even future firm-level bankruptcies. On the other hand, firms that do not make significant changes to their quarterly and annual reports experience positive returns over time.
