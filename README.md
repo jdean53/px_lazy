@@ -29,22 +29,6 @@ In data clean, in order to create a cosine similarity between 2010 and 2020 for 
 ### [Data Analyze](notebooks/data_analyze.md) <a name="subsec2-3"></a>
 In data analyze, all of the data from data clean is pulled and aggregated to an individual dataframe stored in quintiles. The cosine similarities are compared to the companies' respective stock returns from Yahoo Finance to determine whether we should short "changers" or buy "non-changers".
 
-Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
-
-![](pics/plot1.png)
-<br><br>
-Some analysis here
-<br><br>
-![](pics/plot2.png)
-<br><br>
-More analysis here.
-<br><br>
-![](pics/plot3.png)
-<br><br>
-More analysis.
-
-Notice that the output does NOT show! **You have to copy in figures and tables from the notebooks.**
-
 ## Conclusion  <a name="conclusion"></a>
 PLACEHOLDER FOR A FEW SENTENCES ABOUT OUR FINDINGS.
 
