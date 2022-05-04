@@ -1,7 +1,7 @@
 # Cosine Similarity
 
-**Definition**: [Cosine Similarity](https://en.wikipedia.org/wiki/Cosine_similarity) is the measure of similarity between two sequences of numbers.  Mathemetically this is shown as
-$$\cos(\theta) = \frac{\mathbf{A}\cdot\mathbf{B}}{||\mathbf{A}||||\mathbf{B}||}$$
+**Definition**: [Cosine Similarity](https://en.wikipedia.org/wiki/Cosine_similarity) is the measure of similarity between two sequences of numbers.  Mathemetically this is shown as  
+$$\cos(\theta) = \frac{\mathbf{A}\cdot\mathbf{B}}{||\mathbf{A}||||\mathbf{B}||}$$  
 for vectors $\mathbf{A},\mathbf{B}\in\mathbb{R}^n$.
 
 *Comment*: Yes, we can use trigonometric measures to explain the similarity between two documents
@@ -18,9 +18,9 @@ If we look at the word counts for each of these we see the following table
 | end | 0 | 1 |  
 | hunger | 0 | 1 |   
 
-Which we can then vectorize these.  Let $\mathbf{A}$ and $\mathbf{B}$ represent statements 1 and 2 respectively.  We observe
-$$\mathbf{A} = <1,1,0,0>;\; \mathbf{B} = <1,0,1,1>$$
-In this case, we consider vectors in $n=4$ dimensional space.
+Which we can then vectorize these.  Let $\mathbf{A}$ and $\mathbf{B}$ represent statements 1 and 2 respectively.  We observe  
+$$\mathbf{A} = <1,1,0,0>;\; \mathbf{B} = <1,0,1,1>$$  
+In this case, we consider vectors in $n=4$ dimensional space.  
 
 Before we get into it, some definitions we need  
 *Recall*: Vector norm $||\mathbf{X}||=\sqrt{\sum_{i=1}^n x_i^2}$ for $\mathbf{X}\in\mathbb{R}^n$ (this represents a vectors length)  
