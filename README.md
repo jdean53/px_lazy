@@ -22,7 +22,7 @@ There are 3 main parts of our project: data grab, data clean, and data analyze.
 
 In data grab, we use sec_edgar_downloader to load the S&P 500 companies' 10k's and 10q's in 2009-2010 and 2020. For each SEC document, we create a csv file that counts the number of times each word is used, excluding the most basic "filler words", which are 'and', 'the', 'of', 'to', 'in', 'a', 'for', 'on', 'or', 'as', 'is', and 'this'. 
 
-In data clean, we import the cosine similarity module using `sklearn.metrics.pairwise` package. For each ticker, in order to create a cosine similarity between 2010 and 2020, we create vectors which are also numpy arrays. We then convert these arrays from multidimensional to two-dimensional in order to plot each vector on a graph. After that, we are able to measure the cosine similarity by passing both vectors, and the result will be a value between [0,1].
+In data clean, in order to create a cosine similarity between 2010 and 2020, we create vectors which are also numpy arrays. We then convert these arrays from multidimensional to two-dimensional in order to plot each vector on a graph. After that, we are able to measure the cosine similarity by passing both vectors, and the result will be a value between [0,1].
 
 In data analyze, all of the data from data clean is pulled and aggregated to an individual dataframe stored in quartiles. The cosine similarities are compared to the companies' respective stock returns from Yahoo Finance to determine whether we should short "changers" or buy "non-changers".
 
