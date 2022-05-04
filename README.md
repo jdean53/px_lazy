@@ -10,7 +10,7 @@ This is a website to showcase our final project for FIN 377 - Data Science for F
     3. [Data Analyze](#subsec2-3)
 3. [Conclusion](#conclusion)
 
-## [Introduction](introduction.md)  <a name="introduction"></a>
+## [Introduction](notebooks/introduction.md)  <a name="introduction"></a>
 
 This project is inspired by the research paper titled [*Lazy Prices*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1658471), written by Lauren Cohen, Christopher Malloy, and Quoc Nguyen. The paper analyzes S&P 500 companies' quarterly and annual SEC filings between 1995-2014 to determine significant changes in language and structure over time. They found that changes to the reports predict a pessimistic future for the company in areas like earnings, profitability, and even future firm-level bankruptcies. On the other hand, firms that do not make significant changes to their quarterly and annual reports experience positive returns over time.
 
@@ -20,13 +20,13 @@ The main goal of our project is to replicate the work in *Lazy Prices.* This wil
 
 There are 3 main parts of our project: data grab, data clean, and data analyze.
 
-### Data Grab <a name="subsec2-1"></a>
+### [Data Grab](notebooks/data_grab.md) <a name="subsec2-1"></a>
 In data grab, we use sec_edgar_downloader to load the S&P 500 companies' 10k's and 10q's in 2009-2010 and 2020. For each SEC document, we create a csv file that counts the number of times each word is used, excluding the most basic "filler words", which are 'and', 'the', 'of', 'to', 'in', 'a', 'for', 'on', 'or', 'as', 'is', and 'this'. 
 
-### Data Clean <a name="subsec2-2"></a>
+### [Data Clean](notebooks/data_clean.md) <a name="subsec2-2"></a>
 In data clean, in order to create a cosine similarity between 2010 and 2020 for each ticker, we create vectors which are also numpy arrays. We then convert these arrays from multidimensional to two-dimensional in order to plot each vector on a graph. After that, we are able to measure the cosine similarity by passing both vectors, and the result will be a value between [0,1].
 
-### Data Analyze <a name="subsec2-3"></a>
+### [Data Analyze](notebooks/data_analyze.md) <a name="subsec2-3"></a>
 In data analyze, all of the data from data clean is pulled and aggregated to an individual dataframe stored in quintiles. The cosine similarities are compared to the companies' respective stock returns from Yahoo Finance to determine whether we should short "changers" or buy "non-changers".
 
 Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
