@@ -5,9 +5,8 @@ This is a website to showcase our final project for FIN 377 - Data Science for F
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Methodology](#meth)
-3. [Data Preparation](#section2)
-    1. [Data Grab](#subsec2-1)
-    2. [Data Clean](#subsec2-2)
+    2. [Data Grab](#subsec2-1)
+    3. [Data Clean](#subsec2-2)
 4. [Analysis](#section3)
 5. [Summary](#summary)
 
@@ -19,21 +18,14 @@ The main goal of our project is to replicate the work in *Lazy Prices.* This wil
 
 ## Methodology <a name="meth"></a>
 
-There are 3 main parts of our project: data grab, data clean, and data analyze. In data grab, we use sec_edgar_downloader to load the S&P 500 companies' 10k's and 10q's in 2009-2010 and 2020. PLACEHOLDER FOR EXPLANATION ON DATA CLEAN & DATA ANALYZE.
+There are 3 main parts of our project: data grab, data clean, and data analyze. 
 
-```python
-import seaborn as sns 
-iris = sns.load_dataset('iris') 
+In data grab, we use sec_edgar_downloader to load the S&P 500 companies' 10k's and 10q's in 2009-2010 and 2020. For each SEC document, we create a csv file that counts the number of times each word is used, excluding the most basic "filler words", which are 'and', 'the', 'of', 'to', 'in', 'a', 'for', 'on', 'or', 'as', 'is', and 'this'. 
 
-print(iris.head(),  '\n---')
-print(iris.tail(),  '\n---')
-print(iris.columns, '\n---')
-print("The shape is: ",iris.shape, '\n---')
-print("Info:",iris.info(), '\n---') # memory usage, name, dtype, and # of non-null obs (--> # of missing obs) per variable
-print(iris.describe(), '\n---') # summary stats, and you can customize the list!
-print(iris['species'].value_counts()[:10], '\n---')
-print(iris['species'].nunique(), '\n---')
-```
+In data clean, we import the cosine similarity module using `sklearn.metrics.pairwise` package. For each ticker, in order to create a cosine similarity between 2010 and 2020, we create vectors which are also numpy arrays. We then convert these arrays from multidimensional to two-dimensional in order to plot each vector on a graph. After that, we are able to measure the cosine similarity by passing both vectors, and the result will be a value between [0,1].
+
+In data analyze, all of the data from data clean is pulled and aggregated to an individual dataframe stored in quartiles. The cosine similarities are compared to the companies' respective stock returns from Yahoo Finance to determine whether we should short "changers" or buy "non-changers".
+
 
 Notice that the output does NOT show! **You have to copy in figures and tables from the notebooks.**
 
