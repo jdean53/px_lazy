@@ -2,6 +2,8 @@
 
 This is a website to showcase our final project for FIN 377 - Data Science for Finance course at Lehigh University.
 
+This is not intended as investment advice.
+
 <br>
 
 ## Table of Contents
@@ -39,7 +41,20 @@ In data analyze, all of the data from data clean is pulled and aggregated to an 
 <br>
 
 ## Conclusion  <a name="conclusion"></a>
-PLACEHOLDER FOR A FEW SENTENCES ABOUT OUR FINDINGS.
+We found that a long-short portfolio constructed using this strategy did generally generate returns of 4.92% per annum. That said, we did not observe significant market outperformance for the periods we analyzed.  We list the returns we generated and market returns for the period in the table below  
+*Note*: These are listed as quarterly returns and are not an annualized figure  
+| Quarter | Return | Market Return |  
+| -- | -- | -- |  
+| Q1 2010 |  4.00% |  11.09% |  
+| Q2 2010 |  2.42% |  -6.75% |  
+| Q3 2010 | -1.70% |   8.03% |  
+| Q4 2010 | -2.63% |   8.36% |  
+| Q1 2020 |  6.48% | -10.54% |  
+| Q2 2020 |  0.63$ |  12.02% |  
+| Q3 2020 | -4.46% |   2.27% |  
+| Q4 2020 |  4.92% |  14.93% |  
+
+To conclude, this is a valid strategy, but back end data leakage is likely leading to week results in our analysis.  Given more time, we would implement more functionality to read filing meta data, which would allow specific names to be tied to returns starting on the day after the filing date.  Additionally, there would be more put into cleaning through all the filings downloaded in the downloader file.
 
 <br>
 
@@ -47,7 +62,7 @@ PLACEHOLDER FOR A FEW SENTENCES ABOUT OUR FINDINGS.
 
 ### [Jack Dean](https://www.linkedin.com/in/jack-dean-445336150/)
 
-Jack is completing his Financial Engineering Master's degree at Lehigh University in May 2022. Following his program, he will be joining Millenium as a Fixed Income Quantitative Analyst in New York City. 
+Jack is completing his Financial Engineering Master's degree at Lehigh University in May 2022 and will be joining Millennium as a Fixed Income Quantitative Analyst in New York City in June. 
 
 <img src="pics/Jack.jpg" alt="Jack Dean" width="300"/>
 <br><br><br>
