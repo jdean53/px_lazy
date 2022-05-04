@@ -18,6 +18,8 @@ This [project](notebooks/introduction.md) is inspired by the research paper titl
 
 The main goal of our project is to replicate the work in *Lazy Prices.* This will lead us to generate sell or buy signals depending on the documents' differences or lack thereof.  The original research focuses on the Management's Discussion and Analysis (MD&A) and Risk Factors sections, which we are also investigating. Our objective is to prove that greater magnitude of changes will lead to significant underperfomance.
 
+<br>
+
 ## Methodology <a name="meth"></a>
 
 There are 3 main parts of our project: data grab, data clean, and data analyze.
@@ -31,9 +33,12 @@ In data clean, in order to create a cosine similarity between 2010 and 2020 for 
 ### [Data Analyze](notebooks/data_analyze.md) <a name="subsec2-3"></a>
 In data analyze, all of the data from data clean is pulled and aggregated to an individual dataframe stored in quintiles. The cosine similarities are compared to the companies' respective stock returns from Yahoo Finance to determine whether we should short "changers" or buy "non-changers".
 
+<br>
+
 ## Conclusion  <a name="conclusion"></a>
 PLACEHOLDER FOR A FEW SENTENCES ABOUT OUR FINDINGS.
 
+<br>
 
 ## About the Team
 
