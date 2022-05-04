@@ -7,8 +7,7 @@ This is a website to showcase our final project for FIN 377 - Data Science for F
 2. [Methodology](#meth)
     1. [Data Grab](#subsec2-1)
     2. [Data Clean](#subsec2-2)
-4. [Analysis](#section3)
-5. [Summary](#summary)
+    3. [Data Analyze](#subsec2-3)
 
 ## Introduction  <a name="introduction"></a>
 
@@ -18,12 +17,15 @@ The main goal of our project is to replicate the work in *Lazy Prices.* This wil
 
 ## Methodology <a name="meth"></a>
 
-There are 3 main parts of our project: data grab, data clean, and data analyze. 
+There are 3 main parts of our project: data grab, data clean, and data analyze.
 
+### Data Grab <a name="subsec2-1"></a>
 In data grab, we use sec_edgar_downloader to load the S&P 500 companies' 10k's and 10q's in 2009-2010 and 2020. For each SEC document, we create a csv file that counts the number of times each word is used, excluding the most basic "filler words", which are 'and', 'the', 'of', 'to', 'in', 'a', 'for', 'on', 'or', 'as', 'is', and 'this'. 
 
+### Data Clean <a name="subsec2-2"></a>
 In data clean, in order to create a cosine similarity between 2010 and 2020 for each ticker, we create vectors which are also numpy arrays. We then convert these arrays from multidimensional to two-dimensional in order to plot each vector on a graph. After that, we are able to measure the cosine similarity by passing both vectors, and the result will be a value between [0,1].
 
+### Data Analyze <a name="subsec2-3"></a>
 In data analyze, all of the data from data clean is pulled and aggregated to an individual dataframe stored in quintiles. The cosine similarities are compared to the companies' respective stock returns from Yahoo Finance to determine whether we should short "changers" or buy "non-changers".
 
 
@@ -32,7 +34,7 @@ Notice that the output does NOT show! **You have to copy in figures and tables f
 ## Section <a name="section2"></a>
 Blah blah
 
-### Subsection 1 <a name="subsec2-1"></a>
+### Subsection 1 
 This is a subsection, formatted in heading 3 style
 
 ### Subsection 2 <a name="subsec2-2"></a>
@@ -53,11 +55,6 @@ More analysis here.
 ![](pics/plot3.png)
 <br><br>
 More analysis.
-
-## Summary <a name="summary"></a>
-
-Blah blah
-
 
 
 ## About the Team
